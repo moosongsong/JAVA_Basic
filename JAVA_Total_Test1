@@ -1,0 +1,42 @@
+1. 캡슐화에 대해 기술하세요.
+
+2. 정보은닉에 대해 기술하세요.
+
+3. 추상화에 대해 기술하세요.
+
+4. 다형성에 대해 기술하세요.
+
+5. 다음 코드에 대한 설명을 기술하세요.
+
+	interface Runnable {
+		void run();
+	}
+
+	class Hors implements Runnable {
+
+	}
+
+6. 추상형(추상클래스 또는 인터페이스)에 맞추어 설계를 해야 하는 이유를 기술하세요.
+
+7. 다음 코드에 대한 설명을 기술하세요.
+
+	interface Runnable {
+	}
+
+	class Hors implements Runnable
+
+8. 다음 코드가 실행이 불가능한 이유를 설명하고 실행 가능하도록 수정하세요.
+
+	class Person {
+
+	}
+
+	class Student extends Person {
+		public void study() {
+			System.out.println("공부합니다.");
+		}
+	}
+
+	Person p = new Student();
+	p.study();
+
